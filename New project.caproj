@@ -13,7 +13,9 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -55,9 +57,143 @@
         </object-type>
         <object-type name="Sprite2" sid="3439375295315024">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6094752535663454">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4397192769184679" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\SolidBlock.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="5235498861495697">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6504739991046606">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1453952765947149" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\ExplodableBlock.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="5754884632659674">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942362392191468" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\Bomberman.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="6180648057887778">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8645014487146035" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="9223832326583411">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="773352618811145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f00.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f07.png" />
+                </animation>
+                <animation framecount="7" loop="0" name="Front" pingpong="0" repeatcount="1" repeatto="0" sid="1021485635310776" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f07.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="Down" pingpong="0" repeatcount="1" repeatto="0" sid="3760036826865956" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f00.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f07.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="6470476014397924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
