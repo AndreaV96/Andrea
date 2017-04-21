@@ -95,7 +95,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="BomberMan" sid="9223832326583411">
+        <object-type name="Bomber" sid="9223832326583411">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="Direction" sid="991431515283407" type="number" />
@@ -117,7 +117,7 @@
             <animation-folder>
                 <animation framecount="8" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="773352618811145" speed="16">
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f00.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -126,7 +126,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f01.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -135,7 +135,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f02.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -144,7 +144,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f03.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -153,7 +153,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f04.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -162,7 +162,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f05.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -171,7 +171,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f06.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -180,7 +180,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Side\Bman_F_f07.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -191,7 +191,7 @@
                 </animation>
                 <animation framecount="7" loop="1" name="Front" pingpong="0" repeatcount="1" repeatto="0" sid="1021485635310776" speed="16">
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f01.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -200,7 +200,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f02.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -209,7 +209,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f03.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -218,7 +218,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f04.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -227,7 +227,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f05.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -236,7 +236,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f06.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -245,7 +245,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Front\Bman_F_f07.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -256,7 +256,7 @@
                 </animation>
                 <animation framecount="8" loop="1" name="Down" pingpong="0" repeatcount="1" repeatto="0" sid="3760036826865956" speed="16">
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f00.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -265,7 +265,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f01.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -274,7 +274,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f02.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -283,7 +283,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f03.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -292,7 +292,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f04.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -301,7 +301,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f05.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -310,7 +310,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f06.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -319,7 +319,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Bomberman\Back\Bman_B_f07.png">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -330,7 +330,7 @@
                 </animation>
                 <animation framecount="8" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="6470476014397924" speed="16">
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -339,7 +339,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -348,7 +348,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -357,7 +357,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -366,7 +366,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -375,7 +375,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -384,7 +384,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
@@ -393,7 +393,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.703125">
-                        <image-point name="Imagepoint 1" x="0.75" y="0.742188" />
+                        <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
                             <point x="0.859375" y="0.5625" />
