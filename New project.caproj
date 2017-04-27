@@ -53,14 +53,6 @@
             <plugin id="TiledBg" />
             <texture original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\BackgroundTile.png" />
         </object-type>
-        <object-type name="Sprite" sid="6772940984484146">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9998635305449668" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="SolidBlock" sid="3439375295315024">
             <plugin id="Sprite" />
             <behaviors>
@@ -84,14 +76,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1453952765947149" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\ExplodableBlock.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="5754884632659674">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942362392191468" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="\\Dbgadc1\programmers\SecondoProgettoConstruct\0_CommonAssets\Sprites\Blocks\Bomberman.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -120,7 +104,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -129,7 +113,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -138,7 +122,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -147,7 +131,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -156,7 +140,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -165,7 +149,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -174,7 +158,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -183,7 +167,7 @@
                         <image-point name="Imagepoint 1" x="0.75" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -194,7 +178,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -203,7 +187,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -212,7 +196,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -221,7 +205,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -230,7 +214,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -239,7 +223,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -248,7 +232,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.859375" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -259,7 +243,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -268,7 +252,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -277,7 +261,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -286,7 +270,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -295,7 +279,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -304,7 +288,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -313,7 +297,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -322,7 +306,7 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -333,7 +317,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -342,7 +326,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -351,7 +335,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -360,7 +344,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -369,7 +353,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -378,7 +362,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -387,7 +371,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -396,7 +380,7 @@
                         <image-point name="Imagepoint 1" x="0.25" y="0.75" />
                         <collision-poly>
                             <point x="0.109375" y="0.578125" />
-                            <point x="0.859375" y="0.5625" />
+                            <point x="0.859375" y="0.578125" />
                             <point x="0.875" y="0.945313" />
                             <point x="0.09375" y="0.945313" />
                         </collision-poly>
@@ -430,14 +414,6 @@
         </object-type>
         <object-type name="Function" sid="367954595551930">
             <plugin id="Function" />
-        </object-type>
-        <object-type name="Sprite2" sid="382229519796503">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="156008566669570" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Explosion" sid="948898788994274">
             <plugin id="Sprite" />

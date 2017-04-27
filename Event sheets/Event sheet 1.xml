@@ -604,6 +604,29 @@
                         <action id="-9" name="Destroy" sid="506170975909288" type="DestructiveBlocks" />
                     </actions>
                 </event-block>
+                <event-block sid="372324359330726">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="265167661360000" type="Explosion">
+                            <param id="0" name="Object">Bomb</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="742872691086493" type="Bomb">
+                            <param id="0" name="Instance variable">Counter</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="233479831423736">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="877559721963751" type="Explosion">
+                            <param id="0" name="Object">Bomber</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="898990409833914" type="Bomber" />
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
